@@ -6,7 +6,7 @@ import {
   AiFillYoutube
 } from 'react-icons/ai';
 import Image from "next/image";
-import daisySam from '../../public/srFilmDJ.jpg';
+import bitSam from '../../public/8bitSR.png';
 import design from '../../public/design.png';
 import code from '../../public/code.png';
 import consulting from '../../public/consulting.png';
@@ -31,7 +31,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">developedbySR</h1>
+            <h1 className="text-xl font-burtons dark:text-white">developedbySR</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className="cursor-pointer text-2xl"/>
@@ -41,18 +41,18 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Sam Rodriguez</h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Scientist and artist.</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Scientist and artist.</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
               Hey whatsup hello.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <AiFillTwitterCircle/>
-            <AiFillLinkedin/>
+            <a href="https://www.linkedin.com/in/srodriguez6/"><AiFillLinkedin/></a>
             <AiFillYoutube/>
           </div>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={daisySam}   objectFit='cover' layout='fill' />
+            <Image src={bitSam}   objectFit='cover' layout='fill' />
           </div>
         </section>
 
