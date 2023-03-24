@@ -10,7 +10,7 @@ import bitSam from '../../public/8bitSR.png';
 import design from '../../public/design.png';
 import code from '../../public/code.png';
 import consulting from '../../public/consulting.png';
-import web1 from '../../public/web1.png';
+import reactToDo from '../../public/reactToDosnip.png';
 import web2 from '../../public/web2.png';
 import web3 from '../../public/web3.png';
 import web4 from '../../public/web4.png';
@@ -111,11 +111,12 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <Image src={web1} 
+              <a href ="https://reacttodoapp.herokuapp.com/"><Image src={reactToDo} 
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'} 
               layout="responsive"/>
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
               <Image src={web2} 
