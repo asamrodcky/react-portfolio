@@ -11,11 +11,7 @@ import design from '../../public/design.png';
 import code from '../../public/code.png';
 import consulting from '../../public/consulting.png';
 import reactToDo from '../../public/reactToDosnip.png';
-import web2 from '../../public/web2.png';
-import web3 from '../../public/web3.png';
-import web4 from '../../public/web4.png';
-import web5 from '../../public/web5.png';
-import web6 from '../../public/web6.png';
+import oneadayPacMan from '../../public/oneadayPacMan.png';
 import { useState } from "react";
 
 export default function Home() {
@@ -48,9 +44,7 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <AiFillTwitterCircle/>
             <a href="https://www.linkedin.com/in/srodriguez6/"><AiFillLinkedin/></a>
-            <AiFillYoutube/>
           </div>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={bitSam}   objectFit='cover' layout='fill' />
@@ -119,39 +113,12 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={web2} 
+              <a href="https://teacher.desmos.com/activitybuilder/custom/633fa91e594ff0e4f21c3062"><Image src={oneadayPacMan} 
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'} 
               layout="responsive"/>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web3} 
-              className="rounded-lg object-cover" 
-              width={'100%'} 
-              height={'100%'} 
-              layout="responsive"/>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web4} 
-              className="rounded-lg object-cover" 
-              width={'100%'} 
-              height={'100%'} 
-              layout="responsive"/>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web5} 
-              className="rounded-lg object-cover" 
-              width={'100%'} 
-              height={'100%'} 
-              layout="responsive"/>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web6} 
-              className="rounded-lg object-cover" 
-              width={'100%'} 
-              height={'100%'} 
-              layout="responsive"/>
+              </a>
             </div>
           </div>
         </section>
