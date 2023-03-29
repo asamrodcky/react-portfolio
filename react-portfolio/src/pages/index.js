@@ -38,73 +38,31 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Sam Rodriguez</h2>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Scientist and artist.</h3>
+            <h3 className="text-xl py-2 md:text-2xl dark:text-white">(he/him/his)</h3>
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Scientist and artist</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-              Hey whatsup hello.
+              A trained scientist, turned software developer, who makes art in his free time :P.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+          <div className="text-5xl flex justify-center gap-16 text-gray-600">
             <a href="https://www.linkedin.com/in/srodriguez6/"><AiFillLinkedin/></a>
           </div>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={bitSam}   objectFit='cover' layout='fill' />
           </div>
         </section>
-
         <section>
           <div>
-            <h3 className="text-3xl py-1"> Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-600">
-              Lorem ipsum<span className="text-teal-500"> blue text </span>
-              lorem ipsum
-            </p>
-          </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <div className="flex justify-center">
-                <Image src={design} width={100} height={100}/>
-              </div>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-              <p className="py-2">Creating elegant designs...</p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-            </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <div className="flex justify-center">
-                <Image src={code} width={100} height={100}/>
-              </div>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-              <p className="py-2">Creating elegant designs...</p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-            </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <div className="flex justify-center">
-                <Image src={consulting} width={100} height={100}/>
-              </div>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-              <p className="py-2">Creating elegant designs...</p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div>
-            <h3 className="text-3xl py-1"> Portfolio </h3>
-            <p className="text-md py-2 leading-8 text-gray-600">
-              Lorem ipsum<span className="text-teal-500"> blue text </span>
-              lorem ipsum
+            <h3 className="text-3xl py-10 dark:text-white"> Portfolio </h3>
+            <p className="text-md leading-8 text-gray-600 dark:text-white">
+              Much of my day-to-day work takes place in a platform named "Desmos Activity Builder." 
+              The underlying engine for the Activity Builder is the Desmos graphing calculator, which provides me to resources and functionality 
+              to build animations, games, and interactives that students use in the math classroom.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
+              <h4 className="dark:text-white">ToDo app</h4>
               <a href ="https://reacttodoapp.herokuapp.com/"><Image src={reactToDo} 
               className="rounded-lg object-cover" 
               width={'100%'} 
@@ -113,6 +71,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <h4 className="dark:text-white">One-a-day creations on Desmos</h4>
               <a href="https://teacher.desmos.com/activitybuilder/custom/633fa91e594ff0e4f21c3062"><Image src={oneadayPacMan} 
               className="rounded-lg object-cover" 
               width={'100%'} 
