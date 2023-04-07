@@ -27,7 +27,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons dark:text-white">developedbySR</h1>
+            <h1 className="text-xl font-burtons dark:text-white">SR</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:hidden"/>
@@ -52,17 +52,18 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div>
-            <h3 className="text-3xl py-10 dark:text-white"> Portfolio </h3>
-            <p className="text-md leading-8 text-gray-600 dark:text-white">
-              Much of my day-to-day work takes place in a platform named "Desmos Activity Builder." 
-              The underlying engine for the Activity Builder is the Desmos graphing calculator, which provides me to resources and functionality 
-              to build animations, games, and interactives that students use in the math classroom.
+          <div className="pt-20">
+            <h3 className="text-center text-3xl py-10 dark:text-white"> Portfolio </h3>
+            <p className="text-md leading-8 text-gray-600 dark:text-white indent-8">
+              Much of my day-to-day work takes place in a platform called "Desmos Activity Builder." 
+              The underlying engine for the Activity Builder is the Desmos graphing calculator, an online graphing calculator
+              software that provides me to resources and functionality to build animations, games, and interactives that students 
+              use in the math classroom. 
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <h4 className="dark:text-white">ToDo app</h4>
+              <h4 className="dark:text-white text-center pb-5">ToDo app</h4>
               <a href ="https://reacttodoapp.herokuapp.com/"><Image src={reactToDo} 
               className="rounded-lg object-cover" 
               width={'100%'} 
@@ -71,7 +72,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <h4 className="dark:text-white">One-a-day creations on Desmos</h4>
+              <h4 className="dark:text-white text-center pb-5">One-a-day creations on Desmos</h4>
               <a href="https://teacher.desmos.com/activitybuilder/custom/633fa91e594ff0e4f21c3062"><Image src={oneadayPacMan} 
               className="rounded-lg object-cover" 
               width={'100%'} 
