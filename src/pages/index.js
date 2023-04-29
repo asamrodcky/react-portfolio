@@ -84,7 +84,7 @@ export default function Home() {
             <div className="basis-1/3 flex-auto">
               <h4 className="dark:text-white text-center pb-5">Chat Sockets</h4>
               <a href="https://srchat-websockets.herokuapp.com/"><Image src={chatSockets} 
-              className="rounded-lg object-cover h-64 w-64" 
+              className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'} 
               layout="responsive"/>
