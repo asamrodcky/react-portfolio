@@ -56,7 +56,7 @@ export default function Home() {
           <div className="pt-20">
             <h3 className="text-center text-3xl py-10 dark:text-white"> Portfolio </h3>
             <p className="text-md leading-8 text-gray-600 dark:text-white indent-8">
-              Much of my day-to-day work takes place in a platform called 'Desmos Activity Builder.' 
+              Much of my day-to-day work takes place in a platform called 'Desmos Actvity Builder'. 
               The underlying engine for the Activity Builder is the Desmos graphing calculator, an online graphing calculator
               software that provides me to resources and functionality to build animations, games, and interactives that students 
               use in the math classroom. 
