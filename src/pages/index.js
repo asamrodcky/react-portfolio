@@ -12,6 +12,7 @@ import code from '../../public/code.png';
 import consulting from '../../public/consulting.png';
 import reactToDo from '../../public/reactToDosnip.png';
 import oneadayPacMan from '../../public/oneadayPacMan.png';
+import chatSockets from '../../public/chatSockets.png';
 import { useState } from "react";
 
 export default function Home() {
@@ -75,6 +76,15 @@ export default function Home() {
               <h4 className="dark:text-white text-center pb-5">One-a-day creations on Desmos</h4>
               <a href="https://teacher.desmos.com/activitybuilder/custom/633fa91e594ff0e4f21c3062"><Image src={oneadayPacMan} 
               className="rounded-lg object-cover" 
+              width={'100%'} 
+              height={'100%'} 
+              layout="responsive"/>
+              </a>
+            </div>
+            <div className="basis-1/3 flex-auto">
+              <h4 className="dark:text-white text-center pb-5">Chat Sockets</h4>
+              <a href="https://srchat-websockets.herokuapp.com/"><Image src={chatSockets} 
+              className="rounded-lg object-cover h-64 w-64" 
               width={'100%'} 
               height={'100%'} 
               layout="responsive"/>
