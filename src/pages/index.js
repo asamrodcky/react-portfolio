@@ -49,14 +49,14 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/srodriguez6/"><AiFillLinkedin/></a>
           </div>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={bitSam}   objectFit='cover' layout='fill' />
+            <Image src={bitSam} alt="bitSam"   objectFit='cover' layout='fill' />
           </div>
         </section>
         <section>
           <div className="pt-20">
             <h3 className="text-center text-3xl py-10 dark:text-white"> Portfolio </h3>
             <p className="text-md leading-8 text-gray-600 dark:text-white indent-8">
-              Much of my day-to-day work takes place in a platform called "Desmos Activity Builder." 
+              Much of my day-to-day work takes place in a platform called 'Desmos Activity Builder.' 
               The underlying engine for the Activity Builder is the Desmos graphing calculator, an online graphing calculator
               software that provides me to resources and functionality to build animations, games, and interactives that students 
               use in the math classroom. 
