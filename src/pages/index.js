@@ -69,7 +69,8 @@ export default function Home() {
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'} 
-              layout="responsive"/>
+              layout="responsive"
+              alt="reactToDo"/>
               </a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -78,7 +79,8 @@ export default function Home() {
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'} 
-              layout="responsive"/>
+              layout="responsive"
+              alt="oneADay"/>
               </a>
             </div>
             <div className="basis-1/3 flex-auto">
@@ -87,7 +89,8 @@ export default function Home() {
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'} 
-              layout="responsive"/>
+              layout="responsive"
+              alt="chatSockets"/>
               </a>
             </div>
           </div>
