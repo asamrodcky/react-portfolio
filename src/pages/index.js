@@ -34,7 +34,7 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:hidden"/>
                 <BsFillSunFill onClick={()=> setDarkMode(!darkMode)} className="cursor-pointer text-2xl text-white hidden dark:flex"/> 
               </li>
-              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://smrportfolio.s3.us-east-2.amazonaws.com/2022+Sam+Rodriguez+Resume.pdf">Resume</a></li>
+              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://smrportfolio.s3.us-east-2.amazonaws.com/2023+Sam+Rodriguez+Resume.pdf">Resume</a></li>
             </ul>
           </nav>
           <div className="text-center p-10">
