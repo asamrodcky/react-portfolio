@@ -7,9 +7,6 @@ import {
 } from 'react-icons/ai';
 import Image from "next/image";
 import bitSam from '../../public/8bitSR.png';
-import design from '../../public/design.png';
-import code from '../../public/code.png';
-import consulting from '../../public/consulting.png';
 import reactToDo from '../../public/reactToDosnip.png';
 import oneadayPacMan from '../../public/oneadayPacMan.png';
 import chatSockets from '../../public/chatSockets.png';
@@ -62,7 +59,8 @@ export default function Home() {
               use in the math classroom. 
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          {/* flex flex-wrap gap-10 py-10 lg:flex-row md:flex-col md:flex-wrap */}
+          <div className="lg:grid lg:grid-cols-2 gap-10 py-10 md:flex md:flex-col">
             <div className="basis-1/3 flex-1">
               <h4 className="dark:text-white text-center pb-5">ToDo app</h4>
               <a href ="https://reacttodoapp.herokuapp.com/"><Image src={reactToDo} 
@@ -83,7 +81,7 @@ export default function Home() {
               alt="oneADay"/>
               </a>
             </div>
-            <div className="basis-1/3 flex-auto">
+            <div className="basis-1/3 flex-1">
               <h4 className="dark:text-white text-center pb-5">Chat Sockets</h4>
               <a href="https://srchat-websockets.herokuapp.com/"><Image src={chatSockets} 
               className="rounded-lg object-cover" 
