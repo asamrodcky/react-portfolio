@@ -10,6 +10,7 @@ import bitSam from '../../public/8bitSR.png';
 import reactToDo from '../../public/reactToDosnip.png';
 import oneadayPacMan from '../../public/oneadayPacMan.png';
 import chatSockets from '../../public/chatSockets.png';
+import keyMapping from '../../public/desmosKeymapping.png';
 import { useState } from "react";
 
 export default function Home() {
@@ -87,6 +88,16 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <h4 className="dark:text-white text-center pb-5">Chat Sockets</h4>
               <a href="https://srchat-websockets.herokuapp.com/"><Image src={chatSockets} 
+              className="rounded-lg object-cover" 
+              width={'100%'} 
+              height={'100%'} 
+              layout="responsive"
+              alt="chatSockets"/>
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <h4 className="dark:text-white text-center pb-5">Desmos Keymapping</h4>
+              <a href="https://asamrodcky.github.io/desmos-keymap/"><Image src={keyMapping} 
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'} 
