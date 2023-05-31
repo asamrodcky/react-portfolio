@@ -1,9 +1,8 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill , BsFillSunFill } from 'react-icons/bs';
 import { 
-  AiFillTwitterCircle, 
   AiFillLinkedin, 
-  AiFillYoutube
+  AiFillGithub
 } from 'react-icons/ai';
 import Image from "next/image";
 import bitSam from '../../public/8bitSR.png';
@@ -45,6 +44,7 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
             <a href="https://www.linkedin.com/in/srodriguez6/"><AiFillLinkedin/></a>
+            <a href="https://github.com/asamrodcky"><AiFillGithub/></a>
           </div>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={bitSam} alt="bitSam"   objectFit='cover' layout='fill' />
