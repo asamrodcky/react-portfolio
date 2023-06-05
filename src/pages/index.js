@@ -56,11 +56,11 @@ export default function Home() {
             <p className="text-md leading-8 text-gray-600 dark:text-white indent-8">
               Much of my day-to-day work takes place in a platform called Desmos Actvity Builder. 
               The underlying engine for the Activity Builder is the Desmos graphing calculator, an online graphing calculator
-              software that provides me to resources and functionality to build animations, games, and interactives that students 
+              software that provides me the resources and functionality to build animations, games, and interactives that students 
               use in the math classroom. Outside of Desmos, I have experience building full stack web applications with the help of back-end
-              relational (SQL) and non-relational databases (MongoDB) and front-end frameworks such as React.js and Tailwind.css.
+              relational (SQL) and non-relational databases (MongoDB), front-end frameworks such as React.js and Tailwind.css within Node.js server environments.
               My dream would be to be able to join my technical skills with my creative itch and create elegant, easy-to-use applications
-              that make users lives better to navigate while exploring the endless connections of science, math, and art. 
+              that make users lives better while they are navigating and exploring the endless connections of science, math, and art. 
             </p>
           </div>
           {/* flex flex-wrap gap-10 py-10 lg:flex-row md:flex-col md:flex-wrap */}
